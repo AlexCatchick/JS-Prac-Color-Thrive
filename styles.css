@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #6482ad;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 5rem;
+}
+.roboto-go {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+}
+.palette {
+  margin-top: 45px;
+  margin-bottom: 50px;
+  padding: 100px 300px;
+  border-style: none;
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  color: black;
+  outline: none;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.enhancer {
+  /* border: 2px solid #ef4522; */
+  padding: 30px;
+  display: flex;
+  gap: 45px;
+}
+.ip {
+  cursor: text;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 8px;
+  /* box-shadow: 0 0  20px 6px; */
+  border-color: #6482ad;
+}
+.ip::-webkit-outer-spin-button,
+.ip::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.ip::placeholder {
+  color: white;
+  border-style: none;
+}
+.red:hover {
+  background-color: lightgoldenrodyellow;
+  opacity: 0.5;
+}
+.green:hover {
+  background-color: lightgoldenrodyellow;
+  opacity: 0.5;
+}
+.blue:hover {
+  background-color: lightgoldenrodyellow;
+  opacity: 0.5;
+}
